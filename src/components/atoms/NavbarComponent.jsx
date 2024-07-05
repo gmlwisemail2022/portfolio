@@ -57,11 +57,13 @@ const NavbarComponent = () => {
   };
 
   return (
-    <>
-      <nav
-        className={`fixed top-0 left-0 right-0 flex justify-between items-center py-3 mx-auto max-w-[1140px] transition-all duration-300 ${
-          showWhiteBox ? "bg-white shadow-md" : "bg-transparent"
-        }`}
+    <nav
+      className={`fixed top-0 left-0 right-0 transition-all duration-300 ${
+        showWhiteBox ? "bg-white shadow-md" : "bg-transparent"
+      }`}
+    >
+      <div
+        className={`flex justify-between items-center py-3 mx-auto max-w-[1140px]`}
       >
         <div>
           <div className="bg-[#38C2AC] rounded-lg px-3 uppercase font-semibold text-white text-[18px]">
@@ -106,8 +108,8 @@ const NavbarComponent = () => {
             Contact
           </div>
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 };
 
