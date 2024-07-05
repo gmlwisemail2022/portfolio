@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const NavbarComponent = () => {
-  const [scrollY, setScrollY] = useState(window.scrollY);
+  const [, setScrollY] = useState(window.scrollY);
   const [showWhiteBox, setShowWhiteBox] = useState(false);
 
   useEffect(() => {
