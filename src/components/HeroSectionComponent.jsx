@@ -62,7 +62,7 @@ const HeroSectionComponent = () => {
               <div className="absolute inset-0 border-[15px] border-black rounded-full z-10 opacity-30" />
               <img
                 src={MyImage}
-                alt="My Picture"
+                alt="Portfolio"
                 className="absolute inset-0 object-cover"
               />
             </div>
