@@ -60,7 +60,11 @@ const HeroSectionComponent = () => {
           <div className="flex justify-end items-end">
             <div className="relative p-5 rounded-full overflow-hidden min-w-[300px] min-h-[300px]">
               <div className="absolute inset-0 border-[15px] border-black rounded-full z-10 opacity-30" />
-              <img src={MyImage} className="absolute inset-0 object-cover" />
+              <img
+                src={MyImage}
+                alt="My Picture"
+                className="absolute inset-0 object-cover"
+              />
             </div>
           </div>
         </div>
