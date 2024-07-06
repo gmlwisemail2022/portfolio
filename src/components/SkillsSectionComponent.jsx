@@ -39,22 +39,22 @@ const skillsObj = [
   {
     id: 0,
     title: "Cobol",
-    percentage: 85,
+    percentage: 90,
   },
   {
     id: 0,
     title: "JCL",
-    percentage: 85,
+    percentage: 90,
   },
   {
     id: 0,
     title: "CICS",
-    percentage: 60,
+    percentage: 70,
   },
   {
     id: 0,
     title: "DB2/ SQL",
-    percentage: 70,
+    percentage: 75,
   },
   {
     id: 0,
@@ -87,7 +87,7 @@ const professionalSkillsObj = [
   {
     id: 0,
     title: "Business Management",
-    percentage: 65,
+    percentage: 70,
   },
   {
     id: 0,

@@ -49,7 +49,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="relative h-screen w-full bg-[url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Grey-backgrounds-wallpapers-HD.png')] bg-cover bg-center">
+    <div
+      id="experience-section"
+      className="relative h-screen w-full bg-[url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Grey-backgrounds-wallpapers-HD.png')] bg-cover bg-center"
+    >
       <div className="flex items-center justify-center h-screen bg-gray-100 bg-opacity-75">
         <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
           <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
