@@ -32,7 +32,10 @@ const ContactSectionComponent = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div
+      id="contact-section"
+      className="flex items-center justify-center h-screen"
+    >
       <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6">Contact Me</h2>
         {error && (
