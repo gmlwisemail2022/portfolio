@@ -64,35 +64,45 @@ const skillsObj = [
   {
     id: 0,
     title: "HTML/CSS",
-    percentage: 50,
+    percentage: 55,
   },
   {
     id: 0,
     title: "React.js",
-    percentage: 50,
+    percentage: 55,
   },
 ];
 
 const professionalSkillsObj = [
   {
     id: 0,
-    title: "Javascript",
+    title: "Marketing",
+    percentage: 75,
+  },
+  {
+    id: 0,
+    title: "Business Management",
     percentage: 65,
   },
   {
     id: 0,
-    title: "Javascript",
-    percentage: 65,
+    title: "Team Lead",
+    percentage: 60,
   },
   {
     id: 0,
-    title: "Javascript",
-    percentage: 65,
+    title: "Team Work",
+    percentage: 85,
   },
   {
     id: 0,
-    title: "Javascript",
-    percentage: 65,
+    title: "Business Analyst",
+    percentage: 75,
+  },
+  {
+    id: 0,
+    title: "Technical Documentation",
+    percentage: 90,
   },
 ];
 
