@@ -39,28 +39,30 @@ const PortfolioSectionComponent = () => {
   };
 
   return (
-    <section id="portfolio-section" className="py-12 mb-8 relative">
-      <h2 className="text-3xl font-bold mb-8">Portfolio</h2>
-      <Slider {...settings}>
-        {projects.map((project, index) => (
-          <div key={index} className="px-4">
-            <a href={project.url} target="_blank" rel="noreferrer">
-              <div className="flex justify-center items-center h-96 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="object-contain max-h-full max-w-full"
-                />
+    <div className="relative h-screen w-full bg-[url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Grey-backgrounds-wallpapers-HD.png')] bg-cover bg-center">
+      <section id="portfolio-section" className="py-12 mb-8 relative">
+        <h2 className="text-3xl font-bold mb-8">Portfolio</h2>
+        <Slider {...settings}>
+          {projects.map((project, index) => (
+            <div key={index} className="px-4">
+              <a href={project.url} target="_blank" rel="noreferrer">
+                <div className="flex justify-center items-center h-96 overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="object-contain max-h-full max-w-full"
+                  />
+                </div>
+              </a>
+              <div className=" py-4 px-6 shadow-lg rounded-b-lg text-center">
+                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <p className="text-gray-600">{project.description}</p>
               </div>
-            </a>
-            <div className="bg-white py-4 px-6 shadow-lg rounded-b-lg text-center">
-              <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-              <p className="text-gray-600">{project.description}</p>
             </div>
-          </div>
-        ))}
-      </Slider>
-    </section>
+          ))}
+        </Slider>
+      </section>
+    </div>
   );
 };
 

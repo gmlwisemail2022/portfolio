@@ -73,7 +73,7 @@ const ExperienceSectionComponent = () => {
   ];
 
   return (
-    <div id="experience-section" className="grid grid-cols-2 gap-8">
+    <div id="experience-section" className="grid grid-cols-2 gap-8 bg-gray-200">
       <div>
         <h2 className="text-2xl font-bold mb-4">Technical Experience</h2>
         <div className="grid grid-cols-1 gap-4">

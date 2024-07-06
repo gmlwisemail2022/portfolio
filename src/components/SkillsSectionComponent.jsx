@@ -108,7 +108,7 @@ const professionalSkillsObj = [
 
 const SkillsSectionComponent = () => {
   return (
-    <div id="skills-section" className="py-20">
+    <div id="skills-section" className="py-20 bg-gray-200">
       <div className="grid grid-cols-2 gap-20 mx-auto max-w-[1140px]">
         <div className="flex flex-col gap-10 items-center justify-start">
           <div className="text-xl font-bold">Technical Skills</div>

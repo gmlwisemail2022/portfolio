@@ -58,7 +58,7 @@ const NavbarComponent = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 transition-all duration-300 z-50 ${
         showWhiteBox ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
