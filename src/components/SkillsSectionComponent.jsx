@@ -71,6 +71,11 @@ const skillsObj = [
     title: "React.js",
     percentage: 55,
   },
+  {
+    id: 0,
+    title: "Node.js",
+    percentage: 60,
+  },
 ];
 
 const professionalSkillsObj = [
