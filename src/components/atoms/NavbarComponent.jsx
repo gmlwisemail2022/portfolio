@@ -15,7 +15,6 @@ const NavbarComponent = () => {
   }, []);
 
   const handleHeroClick = () => {
-    console.log("navigte via click");
     const heroSection = document.getElementById("hero-section");
     if (heroSection) {
       heroSection.scrollIntoView({ behavior: "smooth" });
@@ -23,7 +22,6 @@ const NavbarComponent = () => {
   };
 
   const handleAboutClick = () => {
-    console.log("navigte via click");
     const aboutSection = document.getElementById("about-section");
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: "smooth" });
@@ -31,7 +29,6 @@ const NavbarComponent = () => {
   };
 
   const handleExperienceClick = () => {
-    console.log("navigte via click");
     const experienceSection = document.getElementById("experience-section");
     if (experienceSection) {
       experienceSection.scrollIntoView({ behavior: "smooth" });
@@ -39,7 +36,6 @@ const NavbarComponent = () => {
   };
 
   const handleSkillsClick = () => {
-    console.log("navigte via click");
     const skillsSection = document.getElementById("skills-section");
     if (skillsSection) {
       skillsSection.scrollIntoView({ behavior: "smooth" });
@@ -47,7 +43,6 @@ const NavbarComponent = () => {
   };
 
   const handlePortfolioClick = () => {
-    console.log("navigte via click");
     const portfolioSection = document.getElementById("portfolio-section");
     if (portfolioSection) {
       portfolioSection.scrollIntoView({ behavior: "smooth" });
